@@ -1,7 +1,7 @@
 /*
   Conditionals - while statement
  
- This example demonstrates the use of  while() statements.
+ Este ejemplo demuestra el uso del comando  while() .
  
  While the pushbutton is pressed, the sketch runs the calibration routine.
  The  sensor readings during the while loop define the minimum and maximum 
