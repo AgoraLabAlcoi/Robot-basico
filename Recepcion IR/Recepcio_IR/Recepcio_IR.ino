@@ -20,7 +20,7 @@ long irKeyCodes[numberOfKeys] = {
   0xA05F08F7, //8 key
   0xA05F8877, //9 key
   0xA05F38C7, //10 key flecha esquerra
-  0xA05FB847, //11 key flecha dreta
+  0x89C80BDC, //11 key flecha dreta
   0xA05FE817, //12 key flecha dalt
   0xA05F18E7, //13 key flecha baix
   0xA05F6897, //14 key intro
