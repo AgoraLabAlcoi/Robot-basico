@@ -14,12 +14,8 @@
    
  void loop() {  
    
-    //int valorIzq =  map(analogRead(A1), 40, 900, 135, 75);
-    //int valorDer =  map(analogRead(A0), 40, 800, 0, 60);
-    
-    int valorIzq =  analogRead(A1);
-    int valorDer =  analogRead(A0);
-    delay(500);
+    int valorIzq =  map(analogRead(A1), 40, 900, 135, 75);
+    int valorDer =  map(analogRead(A0), 40, 800, 0, 60);
      
     myservoIzq.write(valorIzq);
     myservoDer.write(valorDer);
@@ -29,11 +25,6 @@
      Serial.print(valorIzq);
      Serial.print(" Sensor llum Der: ");  
      Serial.println(valorDer); 
-     
-     
-     
-  
-     
    
  } 
 
